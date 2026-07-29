@@ -1,7 +1,7 @@
 <?php
 // 課題１：割引計算プログラム
 $original_price = 5000;
-$discout_rate = 0.20;
+$discount_rate = 0.20;
 $discount_amount = $original_price * $discout_rate;
 $final_price = $original_price - $discount_amount;
 
@@ -42,4 +42,6 @@ echo "ダメージ後: {$score}<br>";
 
 $score *= 2;// 2倍アイテム
 echo "最終スコア: {$score}<br>";
+?>
+
 
