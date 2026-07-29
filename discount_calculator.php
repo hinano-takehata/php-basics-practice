@@ -2,7 +2,7 @@
 // 課題１：割引計算プログラム
 $original_price = 5000;
 $discount_rate = 0.20;
-$discount_amount = $original_price * $discout_rate;
+$discount_amount = $original_price * $discount_rate;
 $final_price = $original_price - $discount_amount;
 
 echo "割引後の価格: " . $final_price . "円<br>";
@@ -13,9 +13,11 @@ $number = 7;
 if ($number % 2 == 0) {
     echo "{$number}は偶数です";
 } else {
-    echo "{$number}は奇数です";
+    echo "{$number}は奇数です<br>";
 }
+?>
 
+<?php
 // 課題３：複数条件の判定
 $age = 25;
 $is_member = true;
